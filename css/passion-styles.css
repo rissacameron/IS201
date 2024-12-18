@@ -1,0 +1,145 @@
+/* General Body Styling */
+body {
+    font-family: 'Poppins', sans-serif; /* Fun, clean font */
+    margin: 0;
+    padding: 0;
+    background-color: #f0e0e0; /* Soft pink background */
+    color: #3b2a4c; /* Darker text for contrast */
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+/* Header Styling */
+header {
+    background-color: #f9d6d0; /* Light pink background */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #d06377; /* Muted pink for title */
+}
+
+/* Navigation Styling */
+nav {
+    text-align: center; /* Centers links in navigation */
+    margin: 20px 0; /* Adds spacing around the nav */
+}
+
+nav a {
+    text-decoration: none; /* Removes underline */
+    color: #d06377; /* Pink color for links */
+    font-size: 1.2rem; /* Adjusts font size */
+    margin: 0 10px; /* Space between links */
+}
+
+nav a:hover {
+    color: #ff9aa2; /* Lighter pink on hover */
+}
+
+/* Section Styling */
+section {
+    padding: 50px 20px;
+    margin-bottom: 30px;
+    background-color: rgba(255, 255, 255, 0.8); /* Light cream background */
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #d06377; /* Pink for section headers */
+    margin-bottom: 20px; /* Standard margin for all h2 headings */
+}
+
+/* Ordered List Styling */
+ol {
+    list-style-type: decimal; /* Numbered list */
+    padding-left: 20px; /* Indentation */
+    font-size: 16px; /* Standard font size */
+}
+
+ol li {
+    margin: 10px 0; /* Vertical spacing */
+    color: #3b2a4c; /* Darker text color */
+}
+
+ol li strong {
+    color: #d06377; /* Pink color for ballet dance names */
+}
+
+/* Unordered List Styling */
+ul {
+    list-style-type: disc; /* Bullet points */
+    padding-left: 20px; /* Indentation */
+    font-size: 14px; /* Slightly smaller font */
+}
+
+ul li {
+    margin: 10px 0; /* Vertical spacing between items */
+    color: #3b2a4c; /* Darker text color */
+}
+
+/* Gallery Title Styling */
+#gallery h2 {
+    text-align: left; /* Left-aligns the gallery title */
+    margin-bottom: 20px; /* Adds margin below the gallery title */
+}
+
+/* Gallery Section Styling */
+#gallery {
+    text-align: center; /* Centers the images horizontally */
+    width: 100%; /* Makes sure the gallery container takes the full width */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow for subtle depth */
+    border-radius: 10px; /* Rounded corners for the container */
+}
+
+/* Image Styling */
+#gallery img {
+    display: inline-block; /* Display images in a row */
+    height: 300px; /* Fixed height for portrait images */
+    width: auto; /* Let the width adjust naturally */
+    max-width: 250px; /* Maximum width for the images */
+    margin: 0 10px; /* Adds spacing between images */
+    border-radius: 20px; /* Rounded corners for the images */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+}
+
+/* YouTube Video Section Styling */
+#favorite-ballet iframe {
+    width: 80%; /* Adjust width */
+    height: 400px; /* Fixed height for consistency */
+    border: none;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto; /* Centers the video */
+}
+
+/* Footer Section Styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #d06377; /* Pink background */
+    color: white;
+    font-size: 1rem;
+}
+
+/* Back to Top Button Styling */
+.back-to-top {
+    display: block;
+    margin: 20px auto; /* Center the button */
+    background-color: #d06377; /* Pink background */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    width: fit-content; /* Prevents stretching */
+}
+
+.back-to-top:hover {
+    background-color: #ff9aa2; /* Lighter pink on hover */
+}

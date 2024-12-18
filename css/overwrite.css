@@ -1,0 +1,24 @@
+/* Change last name in the heading to pink */
+h1 .text-primary {
+    color: rgb(230, 127, 188) !important;
+}
+
+/* Change the email address to pink */
+a[href^="mailto:"] {
+    color: rgb(230, 127, 188)!important;
+}
+
+/* Change the left-side navigation block's background to pink */
+#sideNav {
+    background-color: rgb(230, 127, 188) !important;
+}
+
+/* Change the dates in the resume section to pink */
+.resume-section .text-primary {
+    color: rgb(230, 127, 188) !important;
+}
+/* Social icon circle hover effect */
+.social-icon:hover {
+    background-color: rgb(230, 127, 188) !important; /* Pink background */
+    color: white !important; /* Keep icon color white */
+}
